@@ -14,7 +14,7 @@ const Navbar = () => {
                         <span className="ml-3 text-xl">AirBnb</span>
                     </a>
                     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                        <a className="mr-5 hover:text-gray-900">Any where</a>
+                        <Link to='/generate-painting' className="mr-5 hover:text-gray-900">Generate Paining</Link>
                         <a className="mr-5 hover:text-gray-900">Any week</a>
                         <a className="mr-5 hover:text-gray-900">Add guest</a>
                         <div><BiSearch /></div>
